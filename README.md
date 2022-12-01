@@ -7,3 +7,7 @@ Einfache WinForms C# .NET Sample Anwendung die demonstriert, wie sich der Transf
 3.) Der User hat die Möglichkeit eine Datei von seinem Smartphone auszuwählen oder nutzt die Kamera um ein Bild zu machen  
 4.) Die Anwendung erhält eine URL der hochgeladenen Datei des Users.  
 5.) Die Anwendung nutzt die Fahrzeugscheinscanner API, digitalisiert die Datei des Users und zeigt das Ergebnis an.
+
+## Setup
+
+Um die Beispielanwendung nutzen zu können, müssen Sie in der Klasse `TransferClient` in der Methode `ScanFromUrl()` Ihren Access-Key vom Fahrzeugscheinscanner eintragen. Diesen finden Sie auf www.fahrzeugschein-scanner.de, wenn Sie eingeloggt sind, unter "Profil".
